@@ -656,6 +656,48 @@ footer {
   letter-spacing: 1px;
 }
 
+.dl-parts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.dl-part-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 11px;
+  border-radius: 6px;
+  background: rgba(201, 148, 79, 0.14);
+  border: 1px solid rgba(201, 148, 79, 0.45);
+  color: #f3e6cf;
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 600;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.dl-part-btn:hover {
+  background: rgba(201, 148, 79, 0.28);
+  border-color: #e6b877;
+}
+
+.dl-part-btn small {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.dl-part-btn.downloaded {
+  background: rgba(46, 160, 67, 0.2);
+  border-color: #3fb950;
+}
+
+.dl-part-btn.downloaded::before {
+  content: "✓ ";
+  color: #3fb950;
+}
+
 /* --- RESPONSIVE --- */
 @media (max-width: 900px) {
   .hero h1 { font-size: 2.8rem; }
