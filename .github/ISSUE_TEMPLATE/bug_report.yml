@@ -1,0 +1,36 @@
+name: "🐛 Fehlerbericht / Bug Report (F10)"
+description: "Melde einen Bug, Texturfehler, Animations- oder Quest-Blocker aus Gothic II: Echo des Schläfers"
+title: "[F10 Bug]: "
+labels: ["bug", "in-game-f10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vielen Dank, dass du Gothic II: Echo des Schläfers spielst und hilfst, das Spiel fehlerfrei zu machen!
+        *Tipp:* Du kannst Bugs auch direkt im Spiel über die Taste **[F10]** melden – die Engine erfasst dann vollautomatisch deinen Standort, Blickstrahl-Texturen, Quests und Systemtelemetrie.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Fehlerbeschreibung"
+      description: "Was ist passiert und was hast du erwartet?"
+      placeholder: "Beschreibe kurz das Fehlverhalten..."
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: "Standort & Zone"
+      description: "In welcher Welt und Zone trat der Fehler auf? (z.B. NEWWORLD.ZEN / Khorinis Hafen)"
+      placeholder: "z.B. NEWWORLD.ZEN / Khorinis Hafen / NW_CITY_HABOUR_01"
+  - type: input
+    id: raycast
+    attributes:
+      label: "Blickstrahl & Textur (optional)"
+      description: "Welches Objekt oder welche Textur hattest du im Blick? (wird bei Ingame-[F10] automatisch erfasst)"
+      placeholder: "z.B. NW_NATURE_STONEGROUND_01.TGA / WORLD_MESH"
+  - type: textarea
+    id: telemetry_or_logs
+    attributes:
+      label: "Telemetrie / Engine-Log / Details (optional)"
+      description: "Füge hier gerne den Inhalt aus logs/bugreports/ oder engine/opengothic/log.txt ein."
+      render: text

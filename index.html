@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gothic II: Echo des Schläfers (Soulbound) — Community Alpha (v0.9.5)</title>
+  <meta name="description" content="Gothic II: Echo des Schläfers (Soulbound) Community Alpha (v0.9.5) — Total Conversion auf Basis von OpenGothic (Vulkan 1.3) mit Bestien-Reiten, 44 Gameplay-Schaltern, 100% Offline-Krushak-KI und 2K/4K KI-Remaster.">
+  <link rel="icon" type="image/webp" href="assets/gothic_logo.webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container nav-wrap">
+      <div class="brand">
+        <img src="assets/gothic_logo.webp" alt="Gothic Logo" class="brand-logo">
+        <div class="logo-title">GOTHIC II: ECHO DES SCHLÄFERS <span class="logo-subtitle">(SOULBOUND)</span></div>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#gallery">Welten</a>
+        <a href="#install">Installation</a>
+        <a href="#credits">Credits</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/1YellowMellow1/gothic2-soulbound" class="nav-gh" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-rune">&#9670;</span> COMMUNITY ALPHA v0.9.5 <span class="badge-rune">&#9670;</span> KAPITEL 1 &amp; KERNMECHANIKEN
+      </div>
+      <h1>Khorinis erwacht.<br><span>Folge dem Schatten.</span></h1>
+      <p class="hero-subtitle">
+        Erlebe Gothic II wie nie zuvor: Vollständige 64-Bit Vulkan-Engine mit Raytracing, 
+        ARK-Style Bestien-Zähmung &amp; Reiten, 44 frei wählbare Gameplay-Schalter, 5 Spielstil-Profile 
+        und Krushaks finstere Offline-Schattenstimme — jetzt als Community-Alpha spielbar.
+      </p>
+
+      <div class="hero-cta">
+        <a href="https://github.com/1YellowMellow1/gothic2-soulbound/releases/latest" class="btn-primary" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Community-Alpha herunterladen (v0.9.5)
+        </a>
+        <a href="#install" class="btn-secondary">
+          Installationsanleitung
+        </a>
+        <a href="https://github.com/1YellowMellow1/gothic2-soulbound/releases" class="btn-secondary" target="_blank" rel="noopener">
+          Releases auf GitHub
+        </a>
+      </div>
+
+      <div class="hero-pills">
+        <span class="pill">&#10022; 64-Bit Vulkan 1.3</span>
+        <span class="pill">&#10022; 100% Offline-KI (Kein API-Key)</span>
+        <span class="pill">&#10022; 44 Gameplay-Schalter</span>
+        <span class="pill">&#10022; Bestien-Reiten</span>
+        <span class="pill">&#10022; Ingame Bug-Reporting [F10]</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">&#9670; MEILENSTEINE DES REWORKS &#9670;</div>
+        <h2 class="section-title">Sechs Säulen eines neuen Gothic-Gefühls</h2>
+        <p class="section-desc">Tief im rauen Geist von 2002 verwurzelt, kompromisslos modernisiert und zu 100 % urheberrechtskonform.</p>
+      </div>
+
+      <div class="feature-grid">
+
+        <!-- Säule 1: Bestien-Zähmung & Reiten -->
+        <div class="card card-with-media">
+          <div class="card-img-wrap">
+            <img src="assets/feature_beasts.webp" alt="Bestien-Zähmung" class="card-img" loading="lazy">
+            <div class="card-tag">SYSTEM: BEASTS &amp; MOUNTING</div>
+          </div>
+          <div class="card-body">
+            <h3>Bestien-Zähmung &amp; Reiten</h3>
+            <p>
+              Fertige Schlafpfeile an der Werkbank, lege Schattenläufer, Wölfe oder Snapper in den Heilschlaf 
+              und nähre sie mit ihrem Lieblingsköder. Gezähmte Kreaturen folgen deinen Befehlen per Jagdhorn, 
+              verteidigen dich im Kampf und lassen sich als Reittiere durch Khorinis lenken.
+            </p>
+          </div>
+        </div>
+
+        <!-- Säule 2: Krushak Offline-KI -->
+        <div class="card card-with-media">
+          <div class="card-img-wrap">
+            <img src="assets/feature_krushak.webp" alt="Krushak Schattenstimme" class="card-img" loading="lazy">
+            <div class="card-tag">SYSTEM: DARK SCRIPT ENGINE</div>
+          </div>
+          <div class="card-body">
+            <h3>Krushak 2.0: Die Schattenstimme</h3>
+            <p>
+              100 % offline und mit 0 ms Latenz: Krushak beobachtet jeden deiner Schritte über native Shared-Memory-Telemetrie. 
+              Keine Chat-Illusion und kein externer API-Zwang — 22 handgeschriebene 5-Punkte-Quests und 8 verborgene 
+              Geheimnisse fordern deine Skrupellosigkeit in echten 3D-Welt-Taten heraus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Säule 3: 44-Schalter-Erweiterungsmenü -->
+        <div class="card card-with-media">
+          <div class="card-img-wrap">
+            <img src="assets/feature_mods.webp" alt="44-Schalter Erweiterungsmenü" class="card-img" loading="lazy">
+            <div class="card-tag">SYSTEM: MENU_OPT_MODS</div>
+          </div>
+          <div class="card-body">
+            <h3>44-Schalter-Erweiterungsmenü</h3>
+            <p>
+              Volle Souveränität über jedes Gameplay-Detail in 6 modularen Kategorien:
+              <strong>Kampf &amp; Akrobatik</strong> (Nahkampf aus dem Lauf, Fernkampf-Zoom mit RMB &amp; Kopftreffer-Bonus, Tränke &amp; Zauber im Laufen, Sprinten mit Ausdauer, Abroll-Landung, 50 % Pfeil-Rückgewinnung), 
+              <strong>Beute &amp; Komfort</strong> (Quickloot, Beute-Fokus im dichten Gras, Schloss-Gedächtnis für Dietriche, Diebstahl-Warnung, Bonus-freies Lernen ohne LP-Verteuerung, [Tab]-Dialog-Schnelldurchlauf, Mehrfach-Handwerk am Amboss, Rast an Feuern &amp; Bänken) und 
+              <strong>Lebendige Welt</strong> (3-Schichten-Vegetationswind, abendlicher Hafennebel ab 19:00 Uhr, geräumte Nacht-Marktstände ab 20:00 Uhr, Auto-Fackel beim Waffenziehen).
+            </p>
+          </div>
+        </div>
+
+        <!-- Säule 4: Schild- & Speerkampf -->
+        <div class="card card-body-only">
+          <div class="card-glyph">&#9876;</div>
+          <div class="card-tag">SYSTEM: COMBAT REWORK</div>
+          <h3>Taktischer Schild- &amp; Speerkampf</h3>
+          <p>
+            27 meisterhaft ausbalancierte Schilde mit dynamischer Richtungs- und Blockphysik sowie 10 Speere 
+            mit erweiterter Stoßreichweite bringen frische taktische Tiefe in das Kampfsystem — nahtlos integriert 
+            in Piranha Bytes' raues Original-Trefferfeedback.
+          </p>
+        </div>
+
+        <!-- Säule 5: 5 Spielstil-Profile -->
+        <div class="card card-body-only">
+          <div class="card-glyph">&#9672;</div>
+          <div class="card-tag">SYSTEM: PROFILES &amp; LBD</div>
+          <h3>5 Spielstil-Profile &amp; Learning-by-Doing</h3>
+          <p>
+            Perfekt abgestimmt für jeden Spielertyp: Wähle aus 5 Presets — vom unbarmherzigen 
+            <em>100 % Purist</em> (Original 2003, alle Neuerungen deaktiviert) über <em>Purist+</em> (sanfter Komfort) 
+            und <em>Ausgewogen</em> bis hin zum <em>Feierabend-Zocker</em> (4 konfigurierbare Stufen) mit organischem 
+            <em>Learning-by-Doing</em> (Attribut- und Talentsteigerung direkt durch Treffer im Kampf) oder <em>Vollgas</em> (alle 44 Erweiterungen aktiv).
+          </p>
+        </div>
+
+        <!-- Säule 6: OpenGothic Vulkan 1.3 -->
+        <div class="card card-body-only">
+          <div class="card-glyph">&#9881;</div>
+          <div class="card-tag">SYSTEM: VULKAN 1.3 CORE</div>
+          <h3>OpenGothic 64-Bit &amp; Raytracing</h3>
+          <p>
+            Stabile 60+ FPS in nativem 4K, moderne Schatten- und Beleuchtungseffekte mit Raytracing-Support, 
+            geheilte Vanilla-Dialogbugs, nahtlose 2K/4K KI-Texturen mit Kosinus-Blending sowie das neue 
+            integrierte Ingame-Bugreporting per Tastendruck auf <strong>[F10]</strong>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY: DIE WELTEN -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">&#9670; DIE WELT VON GOTHIC II &#9670;</div>
+        <h2 class="section-title">Aufbruch in eine wiederbelebte Welt</h2>
+        <p class="section-desc">Die Insel Khorinis in noch nie dagewesener visueller Klarheit und technischer Stabilität.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <img src="assets/feature_world.webp" alt="Khorinis Insel & Umland" loading="lazy">
+          <div class="gallery-caption">
+            <h4>Khorinis &amp; Hafenviertel</h4>
+            <p>Kapitel 1 im Fokus der Community-Alpha — lebendig, rau und ohne Ruckler.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img src="assets/feature_addon.webp" alt="Das Tal Jharkendar" loading="lazy">
+          <div class="gallery-caption">
+            <h4>Das vergessene Tal Jharkendar</h4>
+            <p>Alte Maya-Ruinen, Sumpflager und Piraten — vollständig vorbereitet für Vulkan 1.3.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img src="assets/feature_minental.webp" alt="Das belagerte Minental" loading="lazy">
+          <div class="gallery-caption">
+            <h4>Das belagerte Minental</h4>
+            <p>Orkwälle, Drachenfeuer und endlose Schlachten unter moderner 64-Bit-Architektur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALLATION -->
+  <section id="install" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">&#9670; INSTALLATIONS-LEITFADEN &#9670;</div>
+        <h2 class="section-title">In 3 Schritten nach Khorinis</h2>
+        <p class="section-desc">Einfach, isoliert und 100 % urheberrechtskonform. Deine Original-Installation bleibt unangetastet.</p>
+      </div>
+
+      <div class="steps-container">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <div class="step-tag">VORAUSSETZUNG</div>
+          <h4>Originalspiel besitzen</h4>
+          <p>
+            Stelle sicher, dass <strong>Gothic II: Gold Edition</strong> (Die Nacht des Raben) 
+            auf Steam oder GOG auf deinem PC installiert ist. Unser Installer greift lediglich 
+            auf die Original-Audiodateien und Weltdaten zu.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <div class="step-tag">DOWNLOAD &amp; SETUP</div>
+          <h4>Installer herunterladen &amp; ausführen</h4>
+          <p>
+            Lade auf der Release-Seite <strong>alle 4 Setup-Dateien</strong> (<code>Gothic_Soulbound_Setup_v0.9.5_Alpha.exe</code> 
+            sowie <code>-1.bin</code> bis <code>-3.bin</code>) in denselben Ordner herunter und starte anschließend die <code>.exe</code>.
+          </p>
+          <a href="https://github.com/1YellowMellow1/gothic2-soulbound/releases/latest" class="step-btn" target="_blank" rel="noopener">
+            &#9670; Alpha-Installer v0.9.5 herunterladen
+          </a>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <div class="step-tag">SPIELSTART</div>
+          <h4>GothicLauncher.exe starten</h4>
+          <p>
+            Starte das Spiel nach dem Setup über den neuen Desktop-/Startmenü-Eintrag oder die <code>GothicLauncher.exe</code>. 
+            Die Engine erkennt deine Gothic-2-Installation automatisch, initialisiert 
+            den Vulkan-Renderer und startet verzögerungsfrei ins Hauptmenü.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDITS SECTION -->
+  <section id="credits" class="section credits-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">&#9670; MITWIRKENDE &amp; MOD-SCHÖPFER &#9670;</div>
+        <h2 class="section-title">Ewiger Dank an die Community</h2>
+        <p class="section-desc">Dieses Rework steht auf den Schultern genialer Pioniere, die Gothic über Jahrzehnte lebendig gehalten haben.</p>
+      </div>
+
+      <div class="credits-grid">
+        <div class="credit-card">
+          <h4>Julian Amann &amp; OpenGothic-Contributors</h4>
+          <p class="credit-role">Engine-Architektur &amp; Vulkan-Kern</p>
+          <p>Die revolutionäre Open-Source-Reimplementierung der Gothic-Engine in modernem C++ und Vulkan 1.3.</p>
+        </div>
+
+        <div class="credit-card">
+          <h4>Schilde- &amp; Speere-Team &amp; Try</h4>
+          <p class="credit-role">Schildkampf- &amp; Speer-Kampfanimationen</p>
+          <p>Schöpfer der legendären Schild- und Speerkampf-Assets, Animationen und dynamischen Block-Physik.</p>
+        </div>
+
+        <div class="credit-card">
+          <h4>Lord Sargon &amp; Fizzban</h4>
+          <p class="credit-role">Skript-Bugfixes &amp; Daedalus-Meisterschaft</p>
+          <p>Grundlegende Korrekturen der Piranha-Bytes-Vanilla-Skripte, Dialog-Fixes und Daedalus-Erweiterungen.</p>
+        </div>
+
+        <div class="credit-card">
+          <h4>Romanez78 &amp; ARTstuff</h4>
+          <p class="credit-role">3D-Meshes, Rüstungen &amp; Texturen</p>
+          <p>Detailverliebte Modellierung neuer Schilde, Rüstungen, Helme und Waffen im unverwechselbaren Gothic-Stil.</p>
+        </div>
+
+        <div class="credit-card">
+          <h4>Gothic Quality Faces Team</h4>
+          <p class="credit-role">Gesichts- &amp; Charakter-Remaster</p>
+          <p>Hochauflösende, kanonische Gesichts- und Textur-Überarbeitungen aller NPCs der Kolonie und Khorinis.</p>
+        </div>
+
+        <div class="credit-card">
+          <h4>Piranha Bytes (2002/2003)</h4>
+          <p class="credit-role">Das Original-Meisterwerk</p>
+          <p>Für die unvergessene Welt, die rauen Charaktere und eine Atmosphäre, die ihresgleichen sucht.</p>
+        </div>
+
+        <div class="credit-card">
+          <h4>World of Gothic Community</h4>
+          <p class="credit-role">Leidenschaft &amp; Feedback</p>
+          <p>Für über zwei Jahrzehnte unermüdliche Treue, Modding-Tools, Dokumentation und Liebe zur Barriere.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">&#9670; FRAGEN &amp; ANTWORTEN &#9670;</div>
+        <h2 class="section-title">Häufig gestellte Fragen</h2>
+        <p class="section-desc">Transparenz, Stabilität und Fakten stehen für uns an erster Stelle.</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h4>Was bedeutet Community-Alpha (v0.9.5)?</h4>
+          <p>
+            Wir testen die neuen Kernsysteme (Bestien-Reiten per Jagdhorn, Krushak 2.0 Offline-Flüstern, 
+            44-Schalter-Erweiterungsmenü, Schildkampf und Vulkan-Renderer) zunächst intensiv in Kapitel 1. 
+            Über den Ingame-Reporter <strong>[F10]</strong> kannst du mit einem Tastendruck Feedback und Telemetrie 
+            einsenden und das Spiel aktiv mitgestalten.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h4>Kostet Gothic II: Soulbound etwas?</h4>
+          <p>
+            Nein. Die Modifikation ist und bleibt zu 100 % kostenlos für alle Gothic-Fans. 
+            Du musst lediglich das Originalspiel <em>Gothic II: Die Nacht des Raben</em> besitzen.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h4>Werden meine bestehenden Spielstände überschrieben?</h4>
+          <p>
+            Nein. Soulbound nutzt eine vollständige Savegame-Isolation in einem separaten Verzeichnis. 
+            Deine originalen Gothic-2-Spielstände bleiben vollkommen unberührt.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h4>Benötige ich einen Google- oder KI-Account?</h4>
+          <p>
+            Nein! Krushaks Schattenstimme und Quest-Generierung läuft über unsere integrierte 
+            DarkScriptEngine zu 100 % offline auf deinem PC. Es fließen keinerlei Daten ins Internet 
+            und es ist kein API-Key erforderlich.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h4>Kann ich das Spiel auch komplett wie das Original von 2003 spielen?</h4>
+          <p>
+            Ja, absolut. Über das Profil <em>Purist</em> im Menü oder durch Deaktivieren der Schalter im 
+            Menü <em>Erweiterungen</em> entspricht das Gameplay zu exakt 100 % dem Vanilla-Original von 2003 — 
+            inklusive der originalen Kampfdynamik, aber mit moderner Vulkan-Stabilität.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h4>Welche Systemanforderungen gibt es?</h4>
+          <p>
+            Windows 10/11 64-Bit, eine Grafikkarte mit nativer Unterstützung für <strong>Vulkan 1.3</strong> 
+            (NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 oder neuer) sowie ~12 GB freier Festplattenspeicher.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="assets/gothic_logo.webp" alt="Gothic Logo" class="footer-logo">
+        <div class="footer-title">GOTHIC II: ECHO DES SCHLÄFERS <span class="footer-subtitle">(SOULBOUND)</span></div>
+      </div>
+      <p class="footer-legal">
+        Gothic II ist eine eingetragene Marke der THQ Nordic GmbH / ehemals Piranha Bytes.<br>
+        Gothic II: Echo des Schläfers (Soulbound) ist ein nicht-kommerzielles Fan-Projekt auf Basis der OpenGothic-Engine.<br>
+        Downloads &amp; Community auf <a href="https://github.com/1YellowMellow1/gothic2-soulbound/releases" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+      <div class="footer-meta">
+        Community Alpha v0.9.5 &bull; Stand: November 2026 &bull; Build 100% Offline
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
